@@ -11,7 +11,6 @@ from webdriver_manager.firefox import GeckoDriverManager
 driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 
 
-
 class ArticlesInfosSpider(scrapy.Spider):
     name = 'articles_infos'
 
