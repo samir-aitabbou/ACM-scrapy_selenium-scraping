@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 
-df = pd.read_csv('links.csv')
+df = pd.read_csv('/home/aitabbou/Desktop/scraping_project/my_projects/Acm/Acm/links.csv')
 start_urls = df['link'] 
 
 clean_links = []
