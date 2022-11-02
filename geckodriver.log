@@ -483,3 +483,182 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
 1667238855094	Marionette	INFO	Stopped listening on port 37847
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667310255035	geckodriver	INFO	Listening on 127.0.0.1:46569
+1667310255549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49513" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2Hef4A"
+1667310257491	Marionette	INFO	Marionette enabled
+1667310257502	Marionette	INFO	Listening on port 40451
+WebDriver BiDi listening on ws://localhost:49513
+Read port: 40451
+1667310257864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2Hef4A/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:49513/devtools/browser/904dff15-2549-49db-9090-9e5c87298b4f
+1667310452252	geckodriver	INFO	Listening on 127.0.0.1:56343
+1667310452757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5hKIYV"
+1667310454873	Marionette	INFO	Marionette enabled
+1667310454894	Marionette	INFO	Listening on port 43995
+WebDriver BiDi listening on ws://localhost:34627
+Read port: 43995
+1667310455354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5hKIYV/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:34627/devtools/browser/2afe7c63-63fa-40a8-899e-465787f981d3
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1667310590926	Marionette	INFO	Stopped listening on port 40451
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1667310592355	Marionette	INFO	Stopped listening on port 43995
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667310757854	geckodriver	INFO	Listening on 127.0.0.1:44821
+1667310758393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48381" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesFtIYc"
+1667310760264	Marionette	INFO	Marionette enabled
+1667310760274	Marionette	INFO	Listening on port 41209
+WebDriver BiDi listening on ws://localhost:48381
+Read port: 41209
+1667310760608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesFtIYc/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:48381/devtools/browser/62911e0b-57e2-47f7-a35e-f811b5a37882
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1667310865880	geckodriver	INFO	Listening on 127.0.0.1:39919
+1667310866383	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53569" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7Wzgut"
+1667310868299	Marionette	INFO	Marionette enabled
+1667310868308	Marionette	INFO	Listening on port 46053
+WebDriver BiDi listening on ws://localhost:53569
+Read port: 46053
+1667310868643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7Wzgut/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:53569/devtools/browser/37f3fa1a-7567-4399-ab24-3fa7c01dbb84
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1667311500456	Marionette	INFO	Stopped listening on port 41209
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667311925589	geckodriver	INFO	Listening on 127.0.0.1:48061
+1667311926087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57029" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiry7BJ"
+1667311928126	Marionette	INFO	Marionette enabled
+1667311928140	Marionette	INFO	Listening on port 35429
+WebDriver BiDi listening on ws://localhost:57029
+Read port: 35429
+1667311928596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiry7BJ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57029/devtools/browser/3ab394a9-acff-463e-8eb0-3d1936c7c0f2
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1667312512330	geckodriver	INFO	Listening on 127.0.0.1:48443
+1667312512833	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36773" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemIb7Pi"
+1667312514330	Marionette	INFO	Marionette enabled
+1667312514339	Marionette	INFO	Listening on port 40531
+WebDriver BiDi listening on ws://localhost:36773
+Read port: 40531
+1667312514681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemIb7Pi/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36773/devtools/browser/625e87c1-f036-4ed5-b096-948c61752187
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 2878) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 3282) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 3587) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chconsole.error: services.settings: 
+  Message: StorageError: Storage error: InvalidStateError: IndexedDB: main/password-recipes importChanges() IndexedDB: collections, timestamps, records importChanges() in main/password-recipes A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: QuotaExceededError: IndexedDB: main/top-sites importChanges() IndexedDB:  importChanges() in main/top-sites The current transaction exceeded its quota limitations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: InvalidStateError: IndexedDB: main/doh-providers importChanges() IndexedDB: collections, timestamps, records importChanges() in main/doh-providers A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: QuotaExceededError: IndexedDB: main/addons-manager-settings importChanges() IndexedDB:  importChanges() in main/addons-manager-settings The current transaction exceeded its quota limitations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: InvalidStateError: IndexedDB: main/doh-config importChanges() IndexedDB: collections, timestamps, records importChanges() in main/doh-config A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: services.settings: 
+  Message: StorageError: Storage error: QuotaExceededError: IndexedDB: main/devtools-compatibility-browsers importChanges() IndexedDB:  importChanges() in main/devtools-compatibility-browsers The current transaction exceeded its quota limitations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: InvalidStateError: IndexedDB: security-state/cert-revocations importChanges() IndexedDB: collections, timestamps, records importChanges() in security-state/cert-revocations A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: services.settings: 
+  Message: StorageError: Storage error: QuotaExceededError: IndexedDB: security-state/intermediates importChanges() Indexeconsole.error: services.settings: 
+  Message: StorageError: Storage error: InvalidStateError: IndexedDB: security-state/onecrl importChanges() IndexedDB: collections, timestamps, records importChanges() in security-state/onecrl A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 4775) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 5416) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 5344) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 5605) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 6528) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 6654) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 7267) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 7353) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 8568) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 8941) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 10664) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 10627) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 11546) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 11562) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 11652) to file /tmp/rust_mozprofilemIb7Pi/sessionstore-backups/recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not1667338410324	geckodriver	INFO	Listening on 127.0.0.1:59345
+1667338410794	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35067" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSlMIFA"
+1667338413295	Marionette	INFO	Marionette enabled
+1667338413309	Marionette	INFO	Listening on port 40103
+WebDriver BiDi listening on ws://localhost:35067
+Read port: 40103
+1667338413908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSlMIFA/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35067/devtools/browser/413a2f2d-8292-4ba3-92a6-be5d1a0d24e2
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1667338487888	geckodriver	INFO	Listening on 127.0.0.1:43845
+1667338488392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVNROzo"
+1667338491042	Marionette	INFO	Marionette enabled
+1667338491057	Marionette	INFO	Listening on port 35495
+WebDriver BiDi listening on ws://localhost:35761
+Read port: 35495
+1667338491492	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVNROzo/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35761/devtools/browser/746de55a-3e8b-419d-8169-122436bd7527

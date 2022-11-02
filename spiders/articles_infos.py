@@ -27,26 +27,28 @@ class ArticlesInfosSpider(scrapy.Spider):
     # # for lines in start_urls:
     # #         print(lines)
 
-    # df = pd.read_csv('/home/aitabbou/Desktop/scraping_project/my_projects/Acm/Acm/spiders/cleaned_links.csv')
-    # global start_urls 
-    # start_urls = df['links'] 
+    df = pd.read_csv('/home/aitabbou/Desktop/scraping_project/my_projects/Acm/Acm/spiders/cleaned_links.csv')
+    #global start_urls 
+    start_urls = df['links'] 
 
-    try:
-        with open("cleaned_links.csv", "rt") as f:
-            start_urls = [url.strip() for url in f.readlines()][1:]
-    except:
-        start_urls = [] 
+    # try:
+    #     with open("cleaned_links.csv", "rt") as f:
+    #         start_urls = [url.strip() for url in f.readlines()][1:]
+    # except:
+    #     start_urls = [] 
 
    
     def start_requests(self):
         headers= {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'}
-        # for url in self.start_urls:
-        #     print(" ********************* RAHAAAAAAAAAAAAA ! **********************")
-        #     time.sleep(5)
-        #     print("#################### JME3333333333333333333333333 #################")
-        #     print("$$$$$$$$$$$$$$$$$$$$$$$$",url)
-        #     yield scrapy.Request(url, headers=headers, callback=self.parse)
-        yield scrapy.Request(start_urls[0], headers=headers, callback=self.parse)
+        c = 0
+        for url in self.start_urls:
+            c+=1
+            print(" ********************* RAHAAAAAAAAAAAAA ! **********************")
+            time.sleep(5)
+            print("#################### AYYYYYYYYYWAAAAAAAAA #################",c)
+            print("$$$$$$$$$$$$$$$$$$$$$$$$",url)
+            yield scrapy.Request(url, headers=headers, callback=self.parse)
+        #yield scrapy.Request(self.start_urls[0], headers=headers, callback=self.parse)
 
 
 
@@ -54,9 +56,9 @@ class ArticlesInfosSpider(scrapy.Spider):
     def parse(self, response):
         #print("****************************",response.request.url)
         #each url is gathered from response.request object
-        time.sleep(3)
+        time.sleep(2)
         driver.get(response.request.url)
-        time.sleep(3)
+        time.sleep(2)
             
         title = driver.find_element(By.XPATH,'//h1[@class="citation__title"]').text
          #Author name is taken here. Since there are multiple authors in some articles, these are lists of elements
@@ -88,12 +90,11 @@ class ArticlesInfosSpider(scrapy.Spider):
         # Necessary loops to extract texts from previously gathered lists and to be stored as array of texts.
         for au in author_name:
             authors_name.append(au.text)
-            # print("mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ",au.text)
-            # print("\n")
         
         for lo in location:
-            auth_institution = lo.text.rsplit(',', 1)[-2]
-            auths_institution.append(auth_institution)
+            if lo:
+                auth_institution = lo.text.rsplit(',', 1)[-2]
+                auths_institution.append(auth_institution)
         
         for au in range(len(authors_name)):
             au_inst = "("+authors_name[au]+")"+" FROM "+"("+auths_institution[au]+")"
@@ -104,8 +105,9 @@ class ArticlesInfosSpider(scrapy.Spider):
         countries = []
 
         for lo in location:
-            country = lo.text.split(",")[-1].lstrip()
-            countries.append(country)
+            if lo:
+                country = lo.text.split(",")[-1].lstrip()
+                countries.append(country)
 
         for cont in countries:
             if cont not in unique_contries:
