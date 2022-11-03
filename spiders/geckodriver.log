@@ -1065,3 +1065,16 @@ Read port: 44895
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIas2OQ/search.json.mozlz4", (void 0)))
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 DevTools listening on ws://localhost:51599/devtools/browser/da80679e-3c3c-4490-b4af-6f4ffa815776
+1667437504197	geckodriver	INFO	Listening on 127.0.0.1:41833
+1667437504672	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHKGeWX"
+1667437507862	Marionette	INFO	Marionette enabled
+1667437507880	Marionette	INFO	Listening on port 44053
+Read port: 44053
+WebDriver BiDi listening on ws://localhost:53683
+1667437508457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHKGeWX/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:53683/devtools/browser/1dbea312-97c2-48f6-ba05-5921f215a2a9
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

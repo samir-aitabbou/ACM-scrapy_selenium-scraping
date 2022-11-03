@@ -27,7 +27,7 @@ class ArticlesInfosSpider(scrapy.Spider):
     # # for lines in start_urls:
     # #         print(lines)
 
-    df = pd.read_csv('/home/aitabbou/Desktop/scraping_project/my_projects/Acm/Acm/spiders/cleaned_links.csv')
+    df = pd.read_csv('/home/aitabbou/Desktop/scraping_project/my_projects/Acm/Acm/spiders/unvisited_links2.csv')
     #global start_urls 
     start_urls = df['links'] 
 
@@ -92,7 +92,7 @@ class ArticlesInfosSpider(scrapy.Spider):
             authors_name.append(au.text)
         
         for lo in location:
-            if lo:
+            if lo !="":
                 auth_institution = lo.text.rsplit(',', 1)[-2]
                 auths_institution.append(auth_institution)
         
@@ -105,7 +105,7 @@ class ArticlesInfosSpider(scrapy.Spider):
         countries = []
 
         for lo in location:
-            if lo:
+            if lo!="":
                 country = lo.text.split(",")[-1].lstrip()
                 countries.append(country)
 
@@ -114,17 +114,20 @@ class ArticlesInfosSpider(scrapy.Spider):
                 unique_contries.append(cont)
 
         # Yielding takes place in each location element since we need our data to reflect number of contributions from countries among the world
-        for lo in unique_contries:
-            yield {
-                'title':title,
-                'authors_name':authors_name,
-                'auths_institution':auths_institution,
-                'auths_per_institution':auths_per_institution,
-                'abstract':abstract,
-                'location':country,
-                'pub_date':pub_date,
-                'citation_nbres':citation,
-                'download_nbres':downloads,
-                'dio':dio
-            }
+        
+        if (len(unique_contries) !=0):
+            for lo in unique_contries:
+                yield {
+                    'title':title,
+                    'authors_name':authors_name,
+                    'auths_institution':auths_institution,
+                    'auths_per_institution':auths_per_institution,
+                    'abstract':abstract,
+                    'location':country,
+                    'pub_date':pub_date,
+                    'citation_nbres':citation,
+                    'download_nbres':downloads,
+                    'dio':dio
+                }
+        else: print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! EMPTY CITY FIELD !!!!!!!!!!!!!!!!")
 
